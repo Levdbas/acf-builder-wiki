@@ -62,5 +62,5 @@ add_action('acf/init', function() use ($banner) {
 That's almost a 75% reduction in characters. Here are a few things to note:
 * `->build()` will generate the array config on the fly
 * At any time you can add to the field group and call `->build()` again to regenerate the array config with your updates
-* `->addField()` makes some convienient yet opinionated assumptions on what to put for some config values
+* `->addField()` makes some convenient yet opinionated assumptions on what to put for some config values
 * You can chain `->addField()` function calls for convenience, since they return an instance of the builder, indent for your own readability
