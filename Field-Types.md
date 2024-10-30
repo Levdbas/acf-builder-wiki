@@ -47,7 +47,7 @@ $fields
 ### Number 
 ```php
 $fields 
-    ->addNumber('number_Field', [
+    ->addNumber('number_field', [
         'label' => 'Number Field',
         'instructions' => '',
         'required' => 0,
@@ -197,7 +197,7 @@ $fields
 ### File 
 ```php
 $fields 
-    ->addFile('file_Field', [
+    ->addFile('file_field', [
         'label' => 'File Field',
         'instructions' => '',
         'required' => 0,
